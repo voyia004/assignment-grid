@@ -1,0 +1,36 @@
+.website{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr;
+    grid-template-areas: 
+    "r1 r2 r3"
+    "r4 r5 r5" 
+    ;
+    text-align: center;
+    min-height: 10px;
+}
+#r1{
+    grid-area: r1;
+    border: 1px solid;
+}
+#r2{
+    grid-area: r2;
+    border: 1px solid;
+}
+#r3{
+     grid-area: r3;
+     border: 1px solid;
+}
+#r4{
+    grid-area: r4;
+    border: 1px solid;
+}
+#r5{
+    grid-area: r5;
+    border: 1px solid;
+}
+img{
+    height: 50vh;
+}
+
