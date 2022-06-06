@@ -1,7 +1,7 @@
 .website{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 111fr 2fr 111fr;
     grid-template-rows: 0.2fr 0.2fr;
     grid-template-areas: 
     "r1 r2 r3"
@@ -33,4 +33,25 @@
 img{
     height: 50vh;
 }
+#politics{
+    background-color: darkgoldenrod;
+    height: 7vh;
+}
+#Technology{
+    background-color: darkorchid;
+    height: 7vh;
+}
+#locals{
+    background-color: darkslategrey;
+    height: 7vh;
+}
+#Opinion{
+    background-color: cornflowerblue;
+    height: 7vh;
+}
+#sports{
+    background-color: hotpink;
+    height: 7vh;
+}
+
 
